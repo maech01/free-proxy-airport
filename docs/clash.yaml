@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-14T21:49:22.842577+00:00'
+generated-at: '2026-08-14T22:19:21.351130+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
   server: 202.146.222.89
@@ -181,22 +181,21 @@ proxies:
   servername: mgxui.peng.mom
   client-fingerprint: chrome
   network: tcp
-- name: 🇺🇸 美国 | USA 27
-  server: www.true.th
-  port: 80
+- name: 🇺🇸 美国 | USA 2
+  server: 157.254.227.163
+  port: 443
   type: vmess
-  uuid: a150d554-e962-4632-829f-ee583ada3f95
+  uuid: eba24d1d-0c2b-4b67-862f-cae68626f3fa
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   alpn:
   - ''
   skip-cert-verify: true
+  servername: xc166.meiziba5566.com
   network: ws
   ws-opts:
-    path: /htun
-    headers:
-      Host: d7pu5mzr9c4b0.cloudfront.net
+    path: /cae68626f3fa
   udp: true
 - name: 🇳🇱 荷兰 | NLD 7
   server: pro-crane.rooster465.autos
@@ -264,13 +263,6 @@ proxies:
     headers:
       Host: vod.ensf.top
   udp: true
-- name: 🇨🇦 加拿大 | CAN
-  server: 51.222.12.127
-  port: 445
-  type: ss
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
 - name: 🇨🇿 捷克 | CZE
   server: 103.119.18.115
   port: 443
@@ -300,6 +292,13 @@ proxies:
     path: /api/v1/irc
     headers:
       Host: vod.ensf.top
+  udp: true
+- name: 🇨🇦 加拿大 | CAN
+  server: 51.222.12.127
+  port: 445
+  type: ss
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
   udp: true
 - name: 🇷🇺 俄罗斯 | RUS
   server: 104.18.32.47
@@ -350,6 +349,12 @@ proxies:
     headers:
       Host: pl4.lckdwn.ru
   udp: true
+- name: 🇫🇷 法国 | FRA 9
+  server: correct-pony.rooster465.autos
+  port: 443
+  type: trojan
+  password: FH72359861
+  skip-cert-verify: true
 - name: 🇨🇦 加拿大 | CAN 3
   server: 142.4.216.225
   port: 443
@@ -357,12 +362,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: ytw2awn
   udp: true
-- name: 🇫🇷 法国 | FRA 9
-  server: correct-pony.rooster465.autos
-  port: 443
-  type: trojan
-  password: FH72359861
-  skip-cert-verify: true
 - name: 🇨🇭 瑞士 | CHE
   server: 45.143.200.245
   port: 443
@@ -399,6 +398,22 @@ proxies:
     path: /assignment
     headers:
       host: www.calmlunch.com
+- name: 🇩🇪 德国 | DEU 14
+  server: 88.198.82.153
+  port: 443
+  type: vless
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  tls: true
+  alpn:
+  - http/1.1
+  servername: vod.ensf.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /api/v1/irc
+    headers:
+      Host: vod.ensf.top
+  udp: true
 - name: 🇩🇪 德国 | DEU 4
   server: 185.109.48.13
   port: 2053
@@ -561,25 +576,26 @@ proxy-groups:
   - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 32
-  - 🇺🇸 美国 | USA 27
+  - 🇺🇸 美国 | USA 2
   - 🇳🇱 荷兰 | NLD 7
   - 🇩🇪 德国 | DEU 2
   - 🇬🇧 英国 | GBR 4
   - 🇮🇳 印度 | IND
   - 🇨🇦 加拿大 | CAN 2
   - 🇳🇱 荷兰 | NLD 8
-  - 🇨🇦 加拿大 | CAN
   - 🇨🇿 捷克 | CZE
   - 🇳🇱 荷兰 | NLD 4
+  - 🇨🇦 加拿大 | CAN
   - 🇷🇺 俄罗斯 | RUS
   - 🇩🇪 德国 | DEU 5
   - 🇮🇪 爱尔兰 | IRL
   - 🇵🇱 波兰 | POL
-  - 🇨🇦 加拿大 | CAN 3
   - 🇫🇷 法国 | FRA 9
+  - 🇨🇦 加拿大 | CAN 3
   - 🇨🇭 瑞士 | CHE
   - 🇵🇱 波兰 | POL 2
   - 未知TROJAN-230|free-nodes
+  - 🇩🇪 德国 | DEU 14
   - 🇩🇪 德国 | DEU 4
   - 🇬🇧 英国 | GBR 2
   - 🇳🇱 荷兰 | NLD 6
@@ -619,21 +635,21 @@ proxy-groups:
   - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 32
-  - 🇺🇸 美国 | USA 27
+  - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇨🇦 加拿大 | CAN
   - 🇺🇸 美国 | USA 14
+  - 🇺🇸 美国 | USA 2
+  - 🇨🇦 加拿大 | CAN
   - 🇺🇸 美国 | USA 17
   - 🇨🇦 加拿大 | CAN 3
   - 🇺🇸 美国 | USA 30
-  - 🇵🇱 波兰 | POL 2
-  - 🇮🇪 爱尔兰 | IRL
-  - 🇫🇷 法国 | FRA 9
-  - 未知TROJAN-230|free-nodes
+  - 🇺🇸 美国 | USA 24
+  - 🇺🇸 美国 | USA 11
+  - 🇺🇸 美国 | USA 7
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
