@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-14T07:19:32.745228+00:00'
+generated-at: '2026-08-14T08:43:40.923192+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 3
   server: 202.146.222.89
@@ -61,20 +61,6 @@ proxies:
     headers:
       Host: white-hill-f907.23-b68.workers.dev
   udp: true
-- name: 🇺🇸 美国 | USA 40
-  server: pg-usa2-443-vless-tcp.gigatapbot.top
-  port: 443
-  type: vless
-  uuid: 3b9eb177-6f0c-4d49-be4a-7e5168569f45
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: VWhynxStqii0ll4ttnUJWG4Qy9dJFXhZu6Y8OiIO5Vk
-    short-id: c577182abe08e64c
-  servername: pg-usa2-443-vless-tcp.gigatapbot.top
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: 🇺🇸 美国 | USA 16
   server: pg-usa2-bot.gigatapbot.top
   port: 47822
@@ -88,19 +74,6 @@ proxies:
   servername: pg-bot.gigatapbot.top
   client-fingerprint: firefox
   network: tcp
-  udp: true
-- name: 🇺🇸 美国 | USA 6
-  server: 104.20.37.53
-  port: 80
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-b52a90ada6ab
-  tls: false
-  servername: trex-panel-ew6n46.zeus-e0oqfp.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/TrexBridge/b52a90ada6ab
-    headers:
-      Host: trex-panel-ew6n46.zeus-e0oqfp.workers.dev
   udp: true
 - name: 🇺🇸 美国 | USA 4
   server: 104.21.35.235
@@ -133,18 +106,6 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇺🇸 美国 | USA 32
-  server: codecanyon.net
-  port: 8880
-  type: vless
-  uuid: f3d7ebbc-03a1-40f9-a911-ae8628d3927a
-  tls: false
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: dawn-waterfall-6052.360-001.workers.dev
-  udp: true
 - name: 🇺🇸 美国 | USA 39
   server: one-for-all.levikogjgfdd.ir
   port: 2053
@@ -170,18 +131,6 @@ proxies:
     path: /eyJqdW5rIjoiOUhPbnRlV0xaekI1cjciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
     headers:
       Host: billowing-sunset-e340.qaraatayi.workers.dev
-  udp: true
-- name: 🇺🇸 美国 | USA 27
-  server: codecanyon.net
-  port: 8880
-  type: vless
-  uuid: 1cae67cd-9f09-4c59-94e6-998ed0346c44
-  tls: false
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: lingering-lab-91a6.54-8c3.workers.dev
   udp: true
 - name: 🇺🇸 美国 | USA 14
   server: 38.99.248.120
@@ -224,6 +173,14 @@ proxies:
   auth: 4e756809
   sni: www.bing.com
   skip-cert-verify: true
+- name: 🇳🇱 荷兰 | NLD 4
+  server: 86.107.178.71
+  port: 8443
+  type: hysteria2
+  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+  auth: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+  sni: grape-zet-turbo-nl.yyuyy.com
+  skip-cert-verify: true
 - name: 🇳🇱 荷兰 | NLD
   server: neth.lckdwn.ru
   port: 443
@@ -236,14 +193,6 @@ proxies:
     headers:
       Host: neth.lckdwn.ru
   udp: true
-- name: 🇩🇿 DZ_10
-  server: 85.204.107.164
-  port: 8443
-  type: hysteria2
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  auth: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  sni: grape-zet-ro-turbo.bumbleshrimp.com
-  skip-cert-verify: true
 - name: 🇱🇹 立陶宛 | LTU
   server: 84.32.209.80
   port: 443
@@ -267,30 +216,20 @@ proxies:
   ws-opts:
     path: /v1
   udp: true
-- name: 🇩🇪 德国 | DEU 3
-  server: 81.31.210.138
+- name: 🇮🇳 印度 | IND 2
+  server: 198.105.113.205
   port: 443
   type: vless
-  uuid: a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac
+  uuid: 18fd025a-eeb7-4860-b468-299a80b1b2c6
   tls: true
   flow: xtls-rprx-vision
   reality-opts:
-    public-key: rkRBWVPGbMdh1UXAMu0I019NbBFWoBh4W1T856oyl2o
-    short-id: bbab5af2663db00a
-  servername: nl1.murhost.network
+    public-key: uFpKFKMzIJcnqfmvL8x7ykGigDW23kPkxpTkvwHJzgo
+    short-id: fab4
+  servername: india-cdn.linus-qanary.lol
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇩🇰 丹麦 | DNK
-  server: dk86.mechvpn.online
-  port: 443
-  type: hysteria2
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  auth: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  sni: dk86.mechvpn.online
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: 🇩🇪 德国 | DEU 5
   server: tsarlive.dpdns.org
   port: 443
@@ -308,6 +247,16 @@ proxies:
     headers:
       Host: tsarlive.dpdns.org
   udp: true
+- name: 🇩🇰 丹麦 | DNK
+  server: dk86.mechvpn.online
+  port: 443
+  type: hysteria2
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  auth: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  sni: dk86.mechvpn.online
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: 🇩🇪 德国 | DEU 20
   server: pg-de-bot.gigatapbot.top
   port: 47822
@@ -319,29 +268,6 @@ proxies:
     public-key: VWhynxStqii0ll4ttnUJWG4Qy9dJFXhZu6Y8OiIO5Vk
     short-id: c577182abe08e64c
   servername: pg-bot.gigatapbot.top
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
-- name: 🇩🇪 德国 | DEU 15
-  server: de48.mechvpn.online
-  port: 443
-  type: hysteria2
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  auth: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  sni: de48.mechvpn.online
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: 🇩🇪 德国 | DEU 6
-  server: 162.35.231.6
-  port: 443
-  type: vless
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  tls: true
-  reality-opts:
-    public-key: O4of5fbG7Ns3fBdBF0bDU8Fa8q-mdk7YLgOgvAWPeF8
-    short-id: f85aebea
-  servername: media11.abvphelp.cc
   client-fingerprint: firefox
   network: tcp
   udp: true
@@ -407,18 +333,19 @@ proxies:
   auth: 553e3253-c454-431d-a7e6-42bc06ea5e14
   sni: srvhy1.ezcon24.online
   skip-cert-verify: true
-- name: 🇪🇸 西班牙 | ESP 2
-  server: 185.18.250.252
+- name: 🇳🇱 荷兰 | NLD 2
+  server: 199.232.78.159
   port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
+  type: vless
+  uuid: be42674a-296a-43d8-bf04-b8314d65ff63
+  tls: true
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /assignment
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
     headers:
-      Host: www.calmlunch.com
+      Host: pane2.global.ssl.fastly.net
   udp: true
 - name: 🇳🇱 荷兰 | NLD 3
   server: one-for-all.levikogjgfdd.ir
@@ -433,22 +360,6 @@ proxies:
     path: /
     headers:
       Host: levikoconfig.levikogjgfdd.ir
-  udp: true
-- name: 🇬🇧 英国 | GBR
-  server: 199.232.78.160
-  port: 443
-  type: vless
-  uuid: XpnTeam-37
-  tls: true
-  alpn:
-  - http/1.1
-  servername: ssl.fastly.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
   udp: true
 - name: 🇩🇪 德国 | DEU 12
   server: 81.31.210.141
@@ -492,20 +403,6 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇩🇪 德国 | DEU 10
-  server: pg-de-443-vless-tcp.gigatapbot.top
-  port: 443
-  type: vless
-  uuid: 3b9eb177-6f0c-4d49-be4a-7e5168569f45
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: VWhynxStqii0ll4ttnUJWG4Qy9dJFXhZu6Y8OiIO5Vk
-    short-id: c577182abe08e64c
-  servername: pg-de-443-vless-tcp.gigatapbot.top
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
@@ -515,41 +412,33 @@ proxy-groups:
   - 🇺🇸 美国 | USA 21
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 41
-  - 🇺🇸 美国 | USA 40
   - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 32
   - 🇺🇸 美国 | USA 39
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 27
   - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 22
   - 🇫🇷 法国 | FRA 6
   - 🇮🇳 印度 | IND
+  - 🇳🇱 荷兰 | NLD 4
   - 🇳🇱 荷兰 | NLD
-  - 🇩🇿 DZ_10
   - 🇱🇹 立陶宛 | LTU
   - 🇷🇺 俄罗斯 | RUS
-  - 🇩🇪 德国 | DEU 3
-  - 🇩🇰 丹麦 | DNK
+  - 🇮🇳 印度 | IND 2
   - 🇩🇪 德国 | DEU 5
+  - 🇩🇰 丹麦 | DNK
   - 🇩🇪 德国 | DEU 20
-  - 🇩🇪 德国 | DEU 15
-  - 🇩🇪 德国 | DEU 6
   - 🇩🇪 德国 | DEU 11
   - 未知TROJAN-230|free-nodes
   - 🇸🇪 瑞典 | SWE
   - 🇬🇧 英国 | GBR 2
   - 🇩🇪 德国 | DEU 9
-  - 🇪🇸 西班牙 | ESP 2
+  - 🇳🇱 荷兰 | NLD 2
   - 🇳🇱 荷兰 | NLD 3
-  - 🇬🇧 英国 | GBR
   - 🇩🇪 德国 | DEU 12
   - 🇳🇱 荷兰 | NLD 5
   - 🇪🇸 西班牙 | ESP
-  - 🇩🇪 德国 | DEU 10
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
@@ -575,15 +464,11 @@ proxy-groups:
   - 🇺🇸 美国 | USA 21
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 41
-  - 🇺🇸 美国 | USA 40
   - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 32
   - 🇺🇸 美国 | USA 39
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 27
   - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 22
   url: http://www.gstatic.com/generate_204
@@ -591,14 +476,12 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 32
-  - 🇺🇸 美国 | USA 22
-  - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 21
+  - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 41
+  - 🇺🇸 美国 | USA 22
   - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 27
-  - 🇺🇸 美国 | USA 39
+  - 🇳🇱 荷兰 | NLD 4
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
