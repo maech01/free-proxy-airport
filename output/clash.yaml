@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-18T23:21:38.195582+00:00'
+generated-at: '2026-08-18T23:47:26.741203+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 5
   server: legible-ocelot.rooster465.autos
@@ -24,6 +24,13 @@ proxies:
   sni: exact-sawfish.rooster465.autos
   skip-cert-verify: true
   udp: true
+- name: 🇯🇵 日本 | JPN 6
+  server: settling-shad.rooster465.autos
+  port: 443
+  type: trojan
+  password: HC04361579
+  sni: settling-shad.rooster465.autos
+  skip-cert-verify: true
 - name: 🇯🇵 日本 | JPN 3
   server: 139.180.198.220
   port: 52143
@@ -32,13 +39,6 @@ proxies:
   tls: false
   network: tcp
   udp: true
-- name: 🇯🇵 日本 | JPN 6
-  server: settling-shad.rooster465.autos
-  port: 443
-  type: trojan
-  password: HC04361579
-  sni: settling-shad.rooster465.autos
-  skip-cert-verify: true
 - name: 🇭🇰 香港 | HKG 10
   server: planb.mojcn.com.linuxlh.xin
   port: 16632
@@ -158,6 +158,20 @@ proxies:
   auth: daca6264-bd96-48d4-a0ff-c96e50a00aa0
   sni: uswx4.wxgqlfx.vip
   skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 12
+  server: 51.81.223.225
+  port: 11094
+  type: vless
+  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
+    short-id: a356addf
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
 - name: 🇳🇱 荷兰 | NLD 7
   server: 92.5.228.26
   port: 45819
@@ -165,12 +179,6 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 5Xn2qHoVdu6aJjp6R2KjKrk10+qFniNh5OjKW93TdWk=
   udp: true
-- name: 🇬🇧 英国 | GBR 4
-  server: 129.151.77.35
-  port: 61312
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: sC1RiQOK5Ts5zgUYDwB/AGFbqjpytI0/AczgkgCCnew=
 - name: 🇳🇱 荷兰 | NLD 4
   server: one-for-all.levikogjgfdd.ir
   port: 443
@@ -185,20 +193,12 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
   udp: true
-- name: 🇳🇱 荷兰 | NLD
-  server: one-for-all.levikogjgfdd.ir
-  port: 443
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  tls: true
-  servername: josni.hoyes.cloudns.ch
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: josni.hoyes.cloudns.ch
-  udp: true
+- name: 🇬🇧 英国 | GBR 4
+  server: 129.151.77.35
+  port: 61312
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: sC1RiQOK5Ts5zgUYDwB/AGFbqjpytI0/AczgkgCCnew=
 - name: 🇳🇱 荷兰 | NLD 8
   server: 206.189.7.80
   port: 5446
@@ -213,12 +213,33 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: 81a20429165df87e
+- name: 🇳🇱 荷兰 | NLD
+  server: one-for-all.levikogjgfdd.ir
+  port: 443
+  type: vless
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  tls: true
+  servername: josni.hoyes.cloudns.ch
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: josni.hoyes.cloudns.ch
+  udp: true
 - name: 🇷🇺 俄罗斯 | RUS 3
   server: 45.8.158.176
   port: 10801
   type: ss
   cipher: aes-256-gcm
   password: 1eadd4e4a37b6601
+  udp: true
+- name: 🇫🇷 法国 | FRA 20
+  server: 15.237.189.197
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
   udp: true
 - name: 🇷🇺 俄罗斯 | RUS
   server: 195.133.23.5
@@ -239,13 +260,6 @@ proxies:
   servername: cdnjs.cloudflare.com
   client-fingerprint: chrome
   network: tcp
-- name: 🇫🇷 法国 | FRA 20
-  server: 15.237.189.197
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
 - name: 🇫🇮 荷蘭
   type: vmess
   server: 185.246.152.159
@@ -430,8 +444,8 @@ proxy-groups:
   proxies:
   - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 8
-  - 🇯🇵 日本 | JPN 3
   - 🇯🇵 日本 | JPN 6
+  - 🇯🇵 日本 | JPN 3
   - 🇭🇰 香港 | HKG 10
   - 🇸🇬 新加坡 | SGP 3
   - 🇸🇬 新加坡 | SGP 2
@@ -442,16 +456,17 @@ proxy-groups:
   - 🇺🇸 美国 | USA 5
   - 美國丨yoyapai.com_8
   - 🇺🇸 美国 | USA 14
+  - 🇺🇸 美国 | USA 12
   - 🇳🇱 荷兰 | NLD 7
-  - 🇬🇧 英国 | GBR 4
   - 🇳🇱 荷兰 | NLD 4
-  - 🇳🇱 荷兰 | NLD
+  - 🇬🇧 英国 | GBR 4
   - 🇳🇱 荷兰 | NLD 8
   - 🇷🇺 俄罗斯 | RUS 2
+  - 🇳🇱 荷兰 | NLD
   - 🇷🇺 俄罗斯 | RUS 3
+  - 🇫🇷 法国 | FRA 20
   - 🇷🇺 俄罗斯 | RUS
   - 🇰🇷 韩国 | KOR 8
-  - 🇫🇷 法国 | FRA 20
   - 🇫🇮 荷蘭
   - 🇩🇪 德国 | DEU 5
   - 🇳🇱_NL荷蘭丨yoyapai.com
@@ -480,8 +495,8 @@ proxy-groups:
   proxies:
   - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 8
-  - 🇯🇵 日本 | JPN 3
   - 🇯🇵 日本 | JPN 6
+  - 🇯🇵 日本 | JPN 3
   - 🇯🇵 日本 | JPN
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -494,6 +509,7 @@ proxy-groups:
   - 🇺🇸 美国 | USA 5
   - 美國丨yoyapai.com_8
   - 🇺🇸 美国 | USA 14
+  - 🇺🇸 美国 | USA 12
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
@@ -501,11 +517,12 @@ proxy-groups:
   proxies:
   - 🇳🇱 荷兰 | NLD 4
   - 🇸🇬 新加坡 | SGP 2
-  - 🇳🇱 荷兰 | NLD
-  - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 20
-  - 🇯🇵 日本 | JPN 3
+  - 🇳🇱 荷兰 | NLD
   - 🇫🇷 法国 | FRA 20
+  - 🇬🇧 英国 | GBR 4
+  - 🇳🇱 荷兰 | NLD 7
+  - 🇬🇧 英国 | GBR 5
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
