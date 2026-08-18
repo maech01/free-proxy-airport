@@ -7,21 +7,8 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-18T11:53:56.917933+00:00'
+generated-at: '2026-08-18T12:43:05.819612+00:00'
 proxies:
-- name: 🇯🇵 日本 | JPN 5
-  server: 188.253.123.164
-  port: 38551
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  servername: cdnjs.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
 - name: 🇯🇵 日本 | JPN 9
   server: driven-doberman.rooster465.autos
   port: 443
@@ -37,6 +24,20 @@ proxies:
   password: HC04361579
   sni: exact-sawfish.rooster465.autos
   skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 6
+  server: cloudgp-sgp-a.outleft-hy.xyz
+  port: 443
+  type: vless
+  uuid: 929c5ce8-222b-4d93-a80f-9ed580e2e8c1
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: XWq8LYWB6VK_m3a4274NwasY4sLv8yFComcZjvfBNiw
+    short-id: 37f4c87d
+  servername: www.apple.com
+  client-fingerprint: ios
+  network: tcp
   udp: true
 - name: 🇯🇵 日本 | JPN
   server: legible-ocelot.rooster465.autos
@@ -73,22 +74,6 @@ proxies:
     path: /
     headers:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-- name: 🇺🇸 美国 | USA 20
-  server: 162.159.236.101
-  port: 443
-  type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  servername: ecc06d49s2316.fuhuovps.xyz
-  client-fingerprint: ios
-  network: xhttp
-  xhttp-opts:
-    path: 5eee8cbc26dc7dec26a61e56c5dea5c4
-    host: ecc06d49s2316.fuhuovps.xyz
-  udp: true
 - name: 🇺🇸 美国 | USA 24
   server: 107.172.243.149
   port: 8443
@@ -104,12 +89,6 @@ proxies:
   request-timeout: 0
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇺🇸 美国 | USA 7
-  server: 144.24.13.187
-  port: 50356
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: nRZy6ykJ/fn39mZEQVUp0dEfSoQTdszf6wdGbVUYuuE=
 - name: 🇺🇸 美国 | USA 16
   server: 172.238.22.232
   port: 48774
@@ -211,6 +190,17 @@ proxies:
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
   tls: false
   network: tcp
+- name: 🇷🇺 俄罗斯 | RUS 2
+  server: 185.141.227.150
+  port: 18443
+  type: vless
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  tls: true
+  flow: xtls-rprx-vision
+  servername: disagreedebut.net
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
 - name: 🇳🇱 荷兰 | NLD
   server: 188.114.97.3
   port: 443
@@ -224,33 +214,6 @@ proxies:
     path: /sg-melbi
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-  udp: true
-- name: 🇷🇺 俄罗斯 | RUS 2
-  server: 185.141.227.150
-  port: 18443
-  type: vless
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  tls: true
-  flow: xtls-rprx-vision
-  servername: disagreedebut.net
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
-- name: 🇺🇦 乌克兰 | UKR
-  server: 104.20.56.152
-  port: 443
-  type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  servername: 85442499s274.fuhuovps.xyz
-  client-fingerprint: ios
-  network: xhttp
-  xhttp-opts:
-    path: 38fca3ff51a1a355d385b4db9b8f022a
-    host: 85442499s274.fuhuovps.xyz
   udp: true
 - name: 🇨🇦 加拿大 | CAN
   server: 166.88.130.218
@@ -272,21 +235,6 @@ proxies:
   servername: storage.yandex.net
   client-fingerprint: chrome
   network: tcp
-  udp: true
-- name: 🇫🇮 荷蘭
-  type: vmess
-  server: 185.246.152.159
-  port: 443
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-    headers:
-      Host: apjhdggyx.com
   udp: true
 - name: 🇨🇭 瑞士 | CHE 3
   server: jhmq-16fdqod.henghesoft.net
@@ -317,25 +265,12 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: TqkkHRpZTkjbTBrk
   udp: true
-- name: 🇩🇪 德国 | DEU 8
-  server: 91.107.255.181
-  port: 28110
-  type: vmess
-  uuid: 9b4cf5b4-7fd9-436b-a441-6e9dfe601bf9
-  alterId: 0
-  cipher: auto
-  tls: false
-  alpn:
-  - ''
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - www.apple.com
+- name: 🇫🇷 法国 | FRA 9
+  server: 15.237.189.197
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
   udp: true
 - name: 🇨🇭 瑞士 | CHE
   server: translate.magazinetut.online
@@ -347,22 +282,6 @@ proxies:
   servername: translate.magazinetut.online
   client-fingerprint: chrome
   network: tcp
-  udp: true
-- name: 🇺🇦 乌克兰 | UKR 4
-  server: 104.21.73.124
-  port: 443
-  type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  servername: 85442499s274.fuhuovps.xyz
-  client-fingerprint: ios
-  network: xhttp
-  xhttp-opts:
-    path: 38fca3ff51a1a355d385b4db9b8f022a
-    host: 85442499s274.fuhuovps.xyz
   udp: true
 - name: 🇩🇪 德国 | DEU 4
   server: 94.237.81.50
@@ -435,58 +354,12 @@ proxies:
   request-timeout: 0
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇺🇦 乌克兰 | UKR 2
-  server: 172.67.178.39
-  port: 443
-  type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  servername: 85442499s274.fuhuovps.xyz
-  client-fingerprint: ios
-  network: xhttp
-  xhttp-opts:
-    path: 38fca3ff51a1a355d385b4db9b8f022a
-    host: 85442499s274.fuhuovps.xyz
-  udp: true
 - name: 🇬🇧 英国 | GBR 3
   server: 129.151.65.200
   port: 61312
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: dBzhdBpUjjungwbNFFQOLIrxd9SYfqP4Qt2l29/2uYo=
-- name: 🇹🇭 Thailand泰国丨yoyapai.com
-  type: vless
-  server: 18.239.134.69
-  port: 80
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
-  network: ws
-  tls: false
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇦 乌克兰 | UKR 3
-  server: 104.17.56.191
-  port: 443
-  type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  servername: 85442499s274.fuhuovps.xyz
-  client-fingerprint: ios
-  network: xhttp
-  xhttp-opts:
-    path: 38fca3ff51a1a355d385b4db9b8f022a
-    host: 85442499s274.fuhuovps.xyz
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 5
   server: 45.9.14.159
   port: 38444
@@ -504,27 +377,17 @@ proxies:
     host: max.ru
     mode: packet-up
   udp: true
-- name: 🇪🇸 西班牙 | ESP
-  server: xby.mangshe.xyz
-  port: 2056
-  type: hysteria2
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  auth: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  sni: mg2.mangshe.xyz
-  skip-cert-verify: true
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 9
   - 🇯🇵 日本 | JPN 8
+  - 🇸🇬 新加坡 | SGP 6
   - 🇯🇵 日本 | JPN
   - 🇭🇰 香港 | HKG 15
   - 🇭🇰 香港 | HKG 18
-  - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 24
-  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 3
   - 美國丨yoyapai.com_8
@@ -533,30 +396,23 @@ proxy-groups:
   - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 12
   - 🇳🇱 荷兰 | NLD 7
-  - 🇳🇱 荷兰 | NLD
   - 🇷🇺 俄罗斯 | RUS 2
-  - 🇺🇦 乌克兰 | UKR
+  - 🇳🇱 荷兰 | NLD
   - 🇨🇦 加拿大 | CAN
   - 🇷🇺 俄罗斯 | RUS
-  - 🇫🇮 荷蘭
   - 🇨🇭 瑞士 | CHE 3
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇦🇺 澳大利亚 | AUS
-  - 🇩🇪 德国 | DEU 8
+  - 🇫🇷 法国 | FRA 9
   - 🇨🇭 瑞士 | CHE
-  - 🇺🇦 乌克兰 | UKR 4
   - 🇩🇪 德国 | DEU 4
   - 🇬🇧 英国 | GBR 2
   - 🇨🇴 哥伦比亚 | COL
   - 🇩🇪 德国 | DEU 9
   - 🇳🇱 荷兰 | NLD 2
   - 🇳🇱 荷兰 | NLD 3
-  - 🇺🇦 乌克兰 | UKR 2
   - 🇬🇧 英国 | GBR 3
-  - 🇹🇭 Thailand泰国丨yoyapai.com
-  - 🇺🇦 乌克兰 | UKR 3
   - 🇳🇱 荷兰 | NLD 5
-  - 🇪🇸 西班牙 | ESP
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
@@ -569,7 +425,6 @@ proxy-groups:
 - name: JP-POOL
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 9
   - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN
@@ -578,9 +433,7 @@ proxy-groups:
 - name: US-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 24
-  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 3
   - 美國丨yoyapai.com_8
@@ -593,14 +446,12 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 7
-  - 🇳🇱 荷兰 | NLD
   - 🇨🇦 加拿大 | CAN
+  - 🇳🇱 荷兰 | NLD
   - 🇺🇸 美国 | USA 24
-  - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 18
   - 🇨🇴 哥伦比亚 | COL
-  - 🇦🇺 澳大利亚 | AUS
+  - 🇳🇱 荷兰 | NLD 7
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
