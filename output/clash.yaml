@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-18T18:37:26.880201+00:00'
+generated-at: '2026-08-18T19:27:06.557337+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 5
   server: legible-ocelot.rooster465.autos
@@ -48,6 +48,12 @@ proxies:
     headers:
       Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
   udp: true
+- name: 🇸🇬 新加坡 | SGP 3
+  server: 168.107.81.254
+  port: 56927
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: SeX7cLfW+WWgFoc3nPSBxPxBPtE63qwODMqpUf7Slho=
 - name: 🇸🇬 新加坡 | SGP 2
   server: 172.64.146.211
   port: 2087
@@ -123,6 +129,19 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 美國丨yoyapai.com_8
+  type: vless
+  server: 45.155.52.231
+  port: 443
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+  servername: ru2.skydrgn-online.online
+  tls: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: 0b
+  skip-cert-verify: true
+  udp: true
 - name: 🇺🇸 美国 | USA 14
   server: uswx4.wxgqlfx.vip
   port: 35193
@@ -159,6 +178,20 @@ proxies:
   sni: inxgc.southbyte.xyz
   skip-cert-verify: true
   udp: true
+- name: 🇳🇱 荷兰 | NLD
+  server: one-for-all.levikogjgfdd.ir
+  port: 443
+  type: vless
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  tls: true
+  servername: josni.hoyes.cloudns.ch
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: josni.hoyes.cloudns.ch
+  udp: true
 - name: 🇳🇱 荷兰 | NLD 4
   server: one-for-all.levikogjgfdd.ir
   port: 443
@@ -187,20 +220,6 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: 81a20429165df87e
-- name: 🇳🇱 荷兰 | NLD
-  server: one-for-all.levikogjgfdd.ir
-  port: 443
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  tls: true
-  servername: josni.hoyes.cloudns.ch
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: josni.hoyes.cloudns.ch
-  udp: true
 - name: 🇰🇷 韩国 | KOR 3
   server: 15.165.42.204
   port: 46001
@@ -215,13 +234,6 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: 1eadd4e4a37b6601
-  udp: true
-- name: 🇫🇷 法国 | FRA 20
-  server: 15.237.189.197
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
   udp: true
 - name: 🇰🇷 韩国 | KOR 8
   server: 188.253.123.164
@@ -279,20 +291,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   skip-cert-verify: true
   udp: true
-- name: 🇩🇪 德国 | DEU 6
-  server: savesafe.co
-  port: 443
-  type: vless
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
-    short-id: f63805c3ecc7a483
-  servername: savesafe.co
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
 - name: 🇨🇭 瑞士 | CHE 2
   server: jhmq-16fdqod.henghesoft.net
   port: 443
@@ -333,12 +331,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇧🇷 巴西 | BRA
-  server: 146.235.35.83
-  port: 59319
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: IcsKPKHKW9DOiQEeXcRnYMR4dcZ3zP5g0DgZk6CQHWw=
 - name: 🇸🇪 瑞典 | SWE
   server: 172.234.100.80
   port: 5612
@@ -377,20 +369,6 @@ proxies:
   client-fingerprint: qq
   network: tcp
   udp: true
-- name: 🇬🇧 英国 | GBR 3
-  server: 129.121.95.159
-  port: 443
-  type: vless
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
-  tls: true
-  servername: 129.121.95.159
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /connect
-    headers:
-      Host: 129.121.95.159
-  udp: true
 - name: 🇹🇭 Thailand泰国丨yoyapai.com
   type: vless
   server: 18.239.134.69
@@ -404,6 +382,20 @@ proxies:
     headers:
       Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
   skip-cert-verify: true
+  udp: true
+- name: 🇬🇧 英国 | GBR 3
+  server: 129.121.95.159
+  port: 443
+  type: vless
+  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  tls: true
+  servername: 129.121.95.159
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /connect
+    headers:
+      Host: 129.121.95.159
   udp: true
 - name: 🇬🇧 英国 | GBR 5
   server: 129.151.66.31
@@ -442,39 +434,38 @@ proxy-groups:
   - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 6
   - 🇭🇰 香港 | HKG 10
+  - 🇸🇬 新加坡 | SGP 3
   - 🇸🇬 新加坡 | SGP 2
   - 🇯🇵 日本 | JPN
   - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 5
+  - 美國丨yoyapai.com_8
   - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 12
   - 🇬🇧 英国 | GBR 4
   - 🇳🇱 荷兰 | NLD 8
+  - 🇳🇱 荷兰 | NLD
   - 🇳🇱 荷兰 | NLD 4
   - 🇰🇷 韩国 | KOR 4
   - 🇷🇺 俄罗斯 | RUS 2
-  - 🇳🇱 荷兰 | NLD
   - 🇰🇷 韩国 | KOR 3
   - 🇷🇺 俄罗斯 | RUS 3
-  - 🇫🇷 法国 | FRA 20
   - 🇰🇷 韩国 | KOR 8
   - 🇷🇺 俄罗斯 | RUS
   - 🇫🇮 荷蘭
   - 🇩🇪 德国 | DEU 5
   - 🇳🇱_NL荷蘭丨yoyapai.com
-  - 🇩🇪 德国 | DEU 6
   - 🇨🇭 瑞士 | CHE 2
   - 🇹🇭泰国丨yoyapai.com
   - 🇨🇭 瑞士 | CHE
-  - 🇧🇷 巴西 | BRA
   - 🇸🇪 瑞典 | SWE
   - 🇰🇷 韩国 | KOR
   - 🇩🇪 德国 | DEU
   - 🇳🇴 挪威 | NOR
-  - 🇬🇧 英国 | GBR 3
   - 🇹🇭 Thailand泰国丨yoyapai.com
+  - 🇬🇧 英国 | GBR 3
   - 🇬🇧 英国 | GBR 5
   - 🇫🇷 法国 | FRA 8
   - 🇳🇱 荷兰 | NLD 5
@@ -502,6 +493,7 @@ proxy-groups:
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 5
+  - 美國丨yoyapai.com_8
   - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 12
   url: http://www.gstatic.com/generate_204
@@ -509,13 +501,12 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
+  - 🇺🇸 美国 | USA 12
   - 🇳🇱 荷兰 | NLD 4
   - 🇸🇬 新加坡 | SGP 2
-  - 🇺🇸 美国 | USA 20
   - 🇳🇱 荷兰 | NLD
+  - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 14
-  - 🇫🇷 法国 | FRA 20
-  - 🇬🇧 英国 | GBR 5
   - 🇬🇧 英国 | GBR 4
   url: http://www.gstatic.com/generate_204
   interval: 120
