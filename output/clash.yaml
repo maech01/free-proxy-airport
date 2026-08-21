@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-21T11:00:41.509452+00:00'
+generated-at: '2026-08-21T11:34:51.744692+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 3
   server: 54.95.207.148
@@ -46,8 +46,8 @@ proxies:
   reduce-rtt: false
   request-timeout: 0
   congestion-controller: bbr
-- name: 🇺🇸 美国 | USA 11
-  server: 172.64.53.240
+- name: 🇺🇸 美国 | USA 20
+  server: 104.16.150.130
   port: 2087
   type: vless
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
@@ -60,8 +60,8 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
-- name: 🇺🇸 美国 | USA 20
-  server: 104.16.150.130
+- name: 🇺🇸 美国 | USA 11
+  server: 172.64.53.240
   port: 2087
   type: vless
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
@@ -89,6 +89,20 @@ proxies:
     headers:
       Host: 39995895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
   udp: true
+- name: 🇺🇸 美国 | USA 6
+  server: 188.114.97.3
+  port: 443
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  tls: true
+  servername: hhlfy.twiladaphne.ndjp.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  udp: true
 - name: 🇺🇸 美国 | USA 24
   server: 5hsytrdbbvcrxokk.localip.ir
   port: 443
@@ -104,20 +118,6 @@ proxies:
     path: /
     headers:
       Host: nl-10.ariyuz.org
-  udp: true
-- name: 🇺🇸 美国 | USA 6
-  server: 188.114.97.3
-  port: 443
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  tls: true
-  servername: hhlfy.twiladaphne.ndjp.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
   udp: true
 - name: 🇺🇸 美国 | USA 7
   server: vip-us-6.hkd4fwmg.xyz
@@ -139,12 +139,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇺🇸 美国 | USA 12
-  server: 129.153.203.166
-  port: 50356
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: A23Zvh1OLiC2Y+dr+da8RDCNlqeYEdn6Luu/gWk/6rs=
 - name: 🇺🇸 美国 | USA 13
   server: 45.205.0.6
   port: 443
@@ -200,19 +194,6 @@ proxies:
     short-id: 0b
   skip-cert-verify: true
   udp: true
-- name: US美國丨yoyapai.com_2
-  type: vless
-  server: 172.64.88.168
-  port: 8880
-  uuid: 6f876b28-1b3e-4088-85c0-d299e56bfccd
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: throbbing-haze-fbde.388-6c4.workers.dev
-  skip-cert-verify: true
-  udp: true
 - name: 🇺🇸 美国 | USA 17
   server: 104.18.24.194
   port: 443
@@ -226,19 +207,6 @@ proxies:
     path: /@zyzzzoao
     headers:
       Host: cf.udpid.org
-  udp: true
-- name: 🇺🇸 美国 | USA 32
-  server: 38.64.62.238
-  port: 443
-  type: vless
-  uuid: 89323a6b-edf6-402b-a72f-e1a7863794ad
-  tls: true
-  reality-opts:
-    public-key: yS0gQc7yJKYrbltuoBzOSxFH1eJmQPghTVgGXyka6Rw
-    short-id: df9ee61607c20c0f
-  servername: speed.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
   udp: true
 - name: 🇺🇸 美国 | USA 15
   server: 104.19.109.202
@@ -264,6 +232,12 @@ proxies:
   ws-opts:
     path: /5adeccb9
   udp: true
+- name: 🇺🇸 美国 | USA 12
+  server: 129.153.203.166
+  port: 50356
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: A23Zvh1OLiC2Y+dr+da8RDCNlqeYEdn6Luu/gWk/6rs=
 - name: 🇺🇸 美国 | USA 2
   server: a2.arshia-nova.ir
   port: 443
@@ -294,6 +268,12 @@ proxies:
     headers:
       Host: cf.udpid.org
   udp: true
+- name: 🇫🇷 法国 | FRA 5
+  server: 95.170.13.47
+  port: 65443
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
 - name: 🇳🇱 荷兰 | NLD 7
   server: bridge.meshbeat.online
   port: 443
@@ -308,12 +288,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇫🇷 法国 | FRA 5
-  server: 95.170.13.47
-  port: 65443
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
 - name: 🇩🇪 德国 | DEU 2
   server: 138.124.0.168
   port: 8443
@@ -338,14 +312,20 @@ proxies:
     headers:
       Host: link.meshbeat.online
   udp: true
-- name: 🇦🇪 阿联酋 | ARE 2
-  server: 85.204.107.169
-  port: 8080
-  type: hysteria2
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  auth: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  sni: grape-zet-ro-turbo.bumbleshrimp.com
-  skip-cert-verify: true
+- name: 🇳🇱 荷兰 | NLD 4
+  server: 95.85.247.156
+  port: 13443
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: a7f3c91b2e6d84c0
+  servername: auto.cendora.ru
+  client-fingerprint: qq
+  network: tcp
+  udp: true
 - name: 🇳🇱 荷兰 | NLD
   server: 45.91.202.232
   port: 8444
@@ -362,20 +342,6 @@ proxies:
     headers:
       Host: relay.meshbeat.online
   udp: true
-- name: 🇳🇱 荷兰 | NLD 4
-  server: 95.85.247.156
-  port: 13443
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-  servername: auto.cendora.ru
-  client-fingerprint: qq
-  network: tcp
-  udp: true
 - name: 🇪🇸 西班牙 | ESP 3
   server: xby.mangshe.xyz
   port: 2056
@@ -384,6 +350,13 @@ proxies:
   auth: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   sni: mg2.mangshe.xyz
   skip-cert-verify: true
+- name: 🇨🇦 加拿大 | CAN
+  server: 51.222.155.113
+  port: 5601
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
 - name: 🇷🇺 俄罗斯 | RUS
   server: els.mangshe.xyz
   port: 2056
@@ -421,12 +394,18 @@ proxies:
     headers:
       Host: apjhdggyx.com
   udp: true
-- name: 🇨🇦 加拿大 | CAN
-  server: 51.222.155.113
-  port: 5601
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+- name: 🇦🇹 奥地利 | AUT
+  server: 212.183.88.136
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
   udp: true
 - name: 🇩🇪 德国 | DEU 5
   server: deu0003ntrhy01.tcp-reset-club.net
@@ -443,13 +422,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   skip-cert-verify: true
-  udp: true
-- name: 🇩🇪 德国 | DEU 17
-  server: e2.cover20.ir
-  port: 30874
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2wh1oScZDyomCGHuC4pPHaw2jMF6RYdQqxwp02r0rG4=
   udp: true
 - name: 🇦🇺 澳大利亚 | AUS
   server: 117.55.194.77
@@ -508,18 +480,6 @@ proxies:
       Host:
       - mangaarabics.com
   udp: true
-- name: 🇳🇱 荷兰 | NLD 6
-  server: 172.67.209.127
-  port: 8880
-  type: vless
-  uuid: 942bdcfc-e522-44f1-b899-3bd8db7c5ae2
-  tls: false
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: winter-leaf-b4da.122-6c9.workers.dev
-  udp: true
 - name: 🇩🇪 德国 | DEU 13
   server: ger.me1.pingsf.ir
   port: 443
@@ -563,14 +523,14 @@ proxies:
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
   udp: true
-- name: 🇨🇴 哥伦比亚 | COL
-  server: 157.137.218.222
-  port: 62145
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  tls: false
-  network: tcp
-  udp: true
+- name: 🇩🇪 德国 | DEU 9
+  server: player.wwwinternetvideo.click
+  port: 443
+  type: hysteria2
+  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
+  auth: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
+  sni: player.wwwinternetvideo.click
+  skip-cert-verify: true
 - name: 🇲🇴 澳门 | MAC
   server: jpaws.ccwink.photos
   port: 6897
@@ -600,14 +560,6 @@ proxies:
     headers:
       Host: relay.meshbeat.online
   udp: true
-- name: 🇩🇪 德国 | DEU 9
-  server: player.wwwinternetvideo.click
-  port: 443
-  type: hysteria2
-  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
-  auth: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
-  sni: player.wwwinternetvideo.click
-  skip-cert-verify: true
 - name: 🇱🇻 拉脱维亚 | LVA
   server: 195.123.210.168
   port: 443
@@ -698,54 +650,49 @@ proxy-groups:
   - 🇭🇰 香港 | HKG 16
   - 🇯🇵 日本 | JPN
   - 🇭🇰 香港 | HKG 13
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 20
+  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 13
   - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸 美国 | USA 10
   - 美國丨yoyapai.com_8
-  - US美國丨yoyapai.com_2
   - 🇺🇸 美国 | USA 17
-  - 🇺🇸 美国 | USA 32
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 27
+  - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 2
   - 🇺🇸 美国 | USA 22
-  - 🇳🇱 荷兰 | NLD 7
   - 🇫🇷 法国 | FRA 5
+  - 🇳🇱 荷兰 | NLD 7
   - 🇩🇪 德国 | DEU 2
   - 🇩🇪 德国 | DEU 16
-  - 🇦🇪 阿联酋 | ARE 2
-  - 🇳🇱 荷兰 | NLD
   - 🇳🇱 荷兰 | NLD 4
+  - 🇳🇱 荷兰 | NLD
   - 🇪🇸 西班牙 | ESP 3
+  - 🇨🇦 加拿大 | CAN
   - 🇷🇺 俄罗斯 | RUS
   - 🇩🇪 德国 | DEU 3
   - 🇫🇮 荷蘭
-  - 🇨🇦 加拿大 | CAN
+  - 🇦🇹 奥地利 | AUT
   - 🇩🇪 德国 | DEU 5
   - 🇳🇱_NL荷蘭丨yoyapai.com
-  - 🇩🇪 德国 | DEU 17
   - 🇦🇺 澳大利亚 | AUS
   - 🇵🇱 波兰 | POL
   - 🇩🇪 德国 | DEU 6
   - 🇩🇪 德国 | DEU 11
   - 🇨🇭 瑞士 | CHE
-  - 🇳🇱 荷兰 | NLD 6
   - 🇩🇪 德国 | DEU 13
   - 🇩🇪 德国 | DEU 14
   - 🇩🇪 德国 | DEU 4
   - 🇨🇳 CN_20
-  - 🇨🇴 哥伦比亚 | COL
+  - 🇩🇪 德国 | DEU 9
   - 🇲🇴 澳门 | MAC
   - 🇳🇱 荷兰 | NLD 2
-  - 🇩🇪 德国 | DEU 9
   - 🇱🇻 拉脱维亚 | LVA
   - 🇳🇱 荷兰 | NLD 3
   - 🇹🇭 Thailand泰国丨yoyapai.com
@@ -772,23 +719,21 @@ proxy-groups:
 - name: US-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 20
+  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 13
   - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸 美国 | USA 10
   - 美國丨yoyapai.com_8
-  - US美國丨yoyapai.com_2
   - 🇺🇸 美国 | USA 17
-  - 🇺🇸 美国 | USA 32
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 27
+  - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 2
   - 🇺🇸 美国 | USA 22
   url: http://www.gstatic.com/generate_204
@@ -796,17 +741,16 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 20
-  - US美國丨yoyapai.com_2
-  - 🇺🇸 美国 | USA 11
-  - 🇳🇱 荷兰 | NLD 6
+  - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 13
   - 🇺🇸US美國丨yoyapai.com_5
-  - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 32
-  - 🇨🇴 哥伦比亚 | COL
+  - 🇺🇸 美国 | USA 12
+  - 🇨🇦 加拿大 | CAN
+  - 🇫🇷 法国 | FRA 5
+  - 🇳🇱 荷兰 | NLD 5
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
