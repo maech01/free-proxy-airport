@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-24T17:30:21.743658+00:00'
+generated-at: '2026-08-24T18:01:38.307924+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 7
   server: 154.3.35.200
@@ -25,6 +25,21 @@ proxies:
   auth: 3e8790e4fb6629aa819217d9655eafa3
   sni: www.bing.com
   skip-cert-verify: true
+- name: 🇭🇰 香港 | HKG 2
+  server: grman.pubgjim.ir
+  port: 2082
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: qI513Sf0ARJuirKb37p0amvgUd0aNr6d
+  udp: true
+- name: 🇭🇰 香港 | HKG 3
+  server: 189.24.64.9
+  port: 2044
+  type: vless
+  uuid: aa904ebf-99ab-452d-9678-cbe62f5f8934
+  tls: false
+  network: tcp
+  udp: true
 - name: 🇯🇵 日本 | JPN 7
   server: 151.145.65.190
   port: 50160
@@ -33,14 +48,6 @@ proxies:
   auth: b4c65d3711d27d46f32263f1dd9caf48
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇯🇵 日本 | JPN 2
-  server: 189.24.64.171
-  port: 2044
-  type: vless
-  uuid: aa904ebf-99ab-452d-9678-cbe62f5f8934
-  tls: false
-  network: tcp
-  udp: true
 - name: 🇭🇰 香港 | HKG 10
   server: 43.161.225.44
   port: 443
@@ -168,19 +175,6 @@ proxies:
     headers:
       Host: 3865udueu895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com
-  type: trojan
-  server: 216.24.57.7
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
 - name: 🇺🇸 美国 | USA 14
   server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
   port: 443
@@ -194,25 +188,25 @@ proxies:
     headers:
       Host: _acme-challenge.sb.cloudns.biz
   udp: true
+- name: 🇺🇸US美国丨yoyapai.com
+  type: trojan
+  server: 216.24.57.7
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+  udp: true
 - name: 🇳🇱 荷兰 | NLD 7
   server: 141.148.244.61
   port: 45819
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: rccNBXGUPgDWHLt9USQQukjqF2JvS5yU+TUxLxL473Y=
-  udp: true
-- name: 🇨🇦 加拿大 | CAN 2
-  server: 99.79.128.42
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇬🇧 英国 | GBR 4
-  server: 129.151.74.128
-  port: 61312
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: dIQ//bx/BDhH5+YWp3RN0CvBfWy9WJPELBxOF3ta93k=
   udp: true
 - name: 🇩🇪 德国 | DEU 2
   server: 45.95.2.25
@@ -221,6 +215,19 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: MzcxY
   udp: true
+- name: 🇬🇧 英国 | GBR 4
+  server: 129.151.74.128
+  port: 61312
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: dIQ//bx/BDhH5+YWp3RN0CvBfWy9WJPELBxOF3ta93k=
+  udp: true
+- name: 🇨🇦 加拿大 | CAN 2
+  server: 99.79.128.42
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇧🇪 比利时 | BEL
   server: 194.71.227.213
   port: 443
@@ -235,53 +242,29 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
   udp: true
+- name: 🇳🇱 荷兰 | NLD 8
+  server: edge5.rumedia-cdn.com
+  port: 8449
+  type: vless
+  uuid: 9ddd1219-bc7f-4524-ad7c-5b110e7c37bc
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: lcLyifIUyL1UnMABv4u7mVSh7VRmOVaZinSDfSKB13g
+    short-id: 60ccd0e5ab46ac4f
+  servername: www.rumedia-cdn.com
+  client-fingerprint: qq
+  network: tcp
+  udp: true
 - name: 🇬🇧 英国 | GBR 6
   server: 134.65.60.219
   port: 61312
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: oNh1eL/Q4w8hzh0wY6/JPnFjFMidf6FZLhICWd1Gmok=
-- name: 🇷🇺 俄罗斯 | RUS 2
-  server: 89.248.192.63
-  port: 9894
-  type: vless
-  uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
-  tls: true
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabbccdd
-  servername: dl.google.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-tunnel
-  udp: true
 - name: 🇧🇪 比利时 | BEL 2
   server: 180.149.37.38
   port: 8443
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  tls: true
-  servername: josni.hoyes.cloudns.ch
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sg-melbi/
-    headers:
-      Host: josni.hoyes.cloudns.ch
-  udp: true
-- name: 🇳🇱 荷兰 | NLD
-  server: 134.98.129.83
-  port: 62145
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  tls: false
-  network: tcp
-  udp: true
-- name: 🇬🇷 希腊 | GRC
-  server: 91.250.248.151
-  port: 443
   type: vless
   uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   tls: true
@@ -306,6 +289,20 @@ proxies:
   servername: www.rumedia-cdn.com
   client-fingerprint: qq
   network: tcp
+  udp: true
+- name: 🇬🇷 希腊 | GRC
+  server: 91.250.248.151
+  port: 443
+  type: vless
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  tls: true
+  servername: josni.hoyes.cloudns.ch
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sg-melbi/
+    headers:
+      Host: josni.hoyes.cloudns.ch
   udp: true
 - name: 🇨🇦 加拿大 | CAN
   server: vpn-ca-002.fastervpn.world
@@ -337,13 +334,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   skip-cert-verify: true
   udp: true
-- name: 🇮🇪 爱尔兰 | IRL
-  server: 34.243.114.244
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
 - name: 🇵🇱 波兰 | POL
   server: 176.109.108.196
   port: 9892
@@ -359,6 +349,20 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: grpc-tunnel
+  udp: true
+- name: 🇩🇪 德国 | DEU 6
+  server: 67.159.43.202
+  port: 443
+  type: vless
+  uuid: 097bb22a-1303-4478-b9e8-ffc84ea17e83
+  tls: true
+  alpn:
+  - http/1.1
+  servername: cli-q.bosx.net
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /api/connect
   udp: true
 - name: 🇨🇭 瑞士 | CHE 2
   server: 45.196.193.100
@@ -466,14 +470,6 @@ proxies:
   password: a126f35c-e832-4115-8593-b723ade3f7be
   sni: hk.catxstar.com
   skip-cert-verify: true
-- name: 🇨🇴 哥伦比亚 | COL 2
-  server: 157.137.235.70
-  port: 62145
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  tls: false
-  network: tcp
-  udp: true
 - name: 🇩🇪 德国 | DEU
   server: 45.195.228.100
   port: 443
@@ -533,8 +529,9 @@ proxy-groups:
   proxies:
   - 🇭🇰 香港 | HKG 7
   - 🇯🇵 日本 | JPN 5
+  - 🇭🇰 香港 | HKG 2
+  - 🇭🇰 香港 | HKG 3
   - 🇯🇵 日本 | JPN 7
-  - 🇯🇵 日本 | JPN 2
   - 🇭🇰 香港 | HKG 10
   - 🇸🇬SG新加坡丨yoyapai.com_1
   - 🇭🇰 香港 | HKG 9
@@ -545,24 +542,23 @@ proxy-groups:
   - 🇺🇸 美国 | USA 24
   - 🇺🇸 美國節點丨yoyapai.com
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 14
+  - 🇺🇸US美国丨yoyapai.com
   - 🇳🇱 荷兰 | NLD 7
-  - 🇨🇦 加拿大 | CAN 2
-  - 🇬🇧 英国 | GBR 4
   - 🇩🇪 德国 | DEU 2
+  - 🇬🇧 英国 | GBR 4
+  - 🇨🇦 加拿大 | CAN 2
   - 🇧🇪 比利时 | BEL
+  - 🇳🇱 荷兰 | NLD 8
   - 🇬🇧 英国 | GBR 6
-  - 🇷🇺 俄罗斯 | RUS 2
   - 🇧🇪 比利时 | BEL 2
-  - 🇳🇱 荷兰 | NLD
-  - 🇬🇷 希腊 | GRC
   - 🇳🇱 荷兰 | NLD 4
+  - 🇬🇷 希腊 | GRC
   - 🇨🇦 加拿大 | CAN
   - 🇵🇱PL波兰丨yoyapai.com
   - 🇳🇱_NL荷蘭丨yoyapai.com
-  - 🇮🇪 爱尔兰 | IRL
   - 🇵🇱 波兰 | POL
+  - 🇩🇪 德国 | DEU 6
   - 🇨🇭 瑞士 | CHE 2
   - 🇨🇭 瑞士 | CHE
   - 🇵🇱 波兰 | POL 2
@@ -574,7 +570,6 @@ proxy-groups:
   - 🇫🇷 法国 | FRA
   - 🇨🇴 哥伦比亚 | COL
   - 🇮🇩 印尼 | IDN
-  - 🇨🇴 哥伦比亚 | COL 2
   - 🇩🇪 德国 | DEU
   - 🇳🇱 荷兰 | NLD 3
   - 🇬🇧 英国 | GBR
@@ -585,6 +580,8 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇭🇰 香港 | HKG 7
+  - 🇭🇰 香港 | HKG 2
+  - 🇭🇰 香港 | HKG 3
   - 🇭🇰 香港 | HKG 10
   - 🇭🇰 香港 | HKG 9
   url: http://www.gstatic.com/generate_204
@@ -594,7 +591,6 @@ proxy-groups:
   proxies:
   - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 7
-  - 🇯🇵 日本 | JPN 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
@@ -605,22 +601,22 @@ proxy-groups:
   - 🇺🇸 美国 | USA 24
   - 🇺🇸 美國節點丨yoyapai.com
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 14
+  - 🇺🇸US美国丨yoyapai.com
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇨🇦 加拿大 | CAN 2
-  - 🇨🇴 哥伦比亚 | COL
+  - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 25
-  - 🇨🇴 哥伦比亚 | COL 2
   - 🇺🇸US美國丨yoyapai.com_6
-  - 🇮🇪 爱尔兰 | IRL
+  - 🇺🇸 美国 | USA 24
+  - 🇨🇴 哥伦比亚 | COL
+  - 🇺🇸 美国 | USA 14
+  - 🇨🇦 加拿大 | CAN 2
   - 🇨🇦 加拿大 | CAN
-  - 🇬🇧 英国 | GBR
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
