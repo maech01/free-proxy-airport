@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-04T21:40:01.784492+00:00'
+generated-at: '2026-09-04T23:44:36.367694+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
   server: 56022f9f-tl4g00-ttyjoe-ieln.hk3.hyhuawei.com
@@ -92,12 +92,6 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇺🇸 美国 | USA 4
-  server: 121.46.230.233
-  port: 65443
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
 - name: 🇺🇸 美国 | USA 5
   server: starlink-ft.251313.xyz
   port: 443
@@ -128,18 +122,6 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com
-  type: trojan
-  server: 216.24.57.7
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-  ws-opts:
-    path: /assignment
-  udp: true
 - name: 🇺🇸 美國節點丨yoyapai.com
   type: vless
   server: 45.155.52.231
@@ -152,6 +134,18 @@ proxies:
     public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
     short-id: 0b
   skip-cert-verify: false
+  udp: true
+- name: 🇺🇸US美国丨yoyapai.com
+  type: trojan
+  server: 216.24.57.7
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: false
+  ws-opts:
+    path: /assignment
   udp: true
 - name: 🇺🇸 美国 | USA 2
   server: 172.64.42.85
@@ -194,13 +188,6 @@ proxies:
   xhttp-opts:
     path: /assets/build/_app/immutable/chunks/stream-one/
     host: uk10.filesnap.tech
-  udp: true
-- name: 🇨🇦 加拿大 | CAN 2
-  server: 15.156.204.87
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
   udp: true
 - name: 🇳🇱 荷兰 | NLD 8
   server: 84.32.102.254
@@ -275,13 +262,6 @@ proxies:
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
   tls: false
   network: tcp
-- name: 🇨🇦 加拿大 | CAN
-  server: 15.223.182.66
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
 - name: 🇸🇪 瑞典 | SWE 2
   server: 176.108.243.18
   port: 9872
@@ -298,6 +278,13 @@ proxies:
     grpc-mode: gun
     grpc-service-name: grpc-tunnel
   udp: true
+- name: 🇨🇦 加拿大 | CAN
+  server: 15.223.182.66
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
 - name: 🇹🇷 土耳其 | TUR 3
   server: tr01.botovod.space
   port: 443
@@ -312,24 +299,6 @@ proxies:
   xhttp-opts:
     path: /
     host: tr01.botovod.space
-  udp: true
-- name: 🇩🇪 德国 | DEU 3
-  server: vpnon4u.niceworktodo.dpdns.org
-  port: 443
-  type: vless
-  uuid: d7b57385-9211-4fb1-9bec-8556c13d8031
-  tls: true
-  alpn:
-  - http/1.1
-  - h2
-  servername: webproduction.niceworktodo.dpdns.org
-  client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /vpnon4u
-    host: webproduction.niceworktodo.dpdns.org
-    mode: auto
-    x-padding-bytes: 100-1000
   udp: true
 - name: 🇳🇱_NL荷蘭丨yoyapai.com
   type: ss
@@ -461,6 +430,20 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
+- name: 🇳🇱 荷兰 | NLD 2
+  server: sv6.jarvesitw.ru
+  port: 443
+  type: vless
+  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 2e9dGid5D-e4demAVGqU71uEeusuBhviikchaJ96E3o
+    short-id: 8ece2039
+  servername: apiv6.jarvesitw.ru
+  client-fingerprint: qq
+  network: tcp
+  udp: true
 - name: 🇩🇪 德国 | DEU
   server: 5.83.129.90
   port: 54177
@@ -509,26 +492,23 @@ proxy-groups:
   - 🇸🇬 新加坡 | SGP 2
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 10
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美國節點丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 2
   - 🇹🇭TH泰国丨yoyapai.com
   - 🇬🇧 英国 | GBR 4
-  - 🇨🇦 加拿大 | CAN 2
   - 🇳🇱 荷兰 | NLD 8
   - 🇮🇷 伊朗 | IRN
   - 🇰🇷 韩国 | KOR 4
   - 🇷🇺 俄罗斯 | RUS 2
   - 🇸🇪 瑞典 | SWE 3
   - 🇳🇱 荷兰 | NLD
-  - 🇨🇦 加拿大 | CAN
   - 🇸🇪 瑞典 | SWE 2
+  - 🇨🇦 加拿大 | CAN
   - 🇹🇷 土耳其 | TUR 3
-  - 🇩🇪 德国 | DEU 3
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇵🇱 波兰 | POL
   - 🇩🇪DE德国丨yoyapai.com_13
@@ -539,6 +519,7 @@ proxy-groups:
   - 🇳🇱 荷兰 | NLD 6
   - 🇰🇷 韩国 | KOR
   - 🇫🇷 法国 | FRA
+  - 🇳🇱 荷兰 | NLD 2
   - 🇩🇪 德国 | DEU
   - 🇳🇱 荷兰 | NLD 3
   - 🇳🇱 荷兰 | NLD 9
@@ -568,12 +549,11 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 10
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美國節點丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -581,12 +561,11 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 2
   - 🇸🇬 新加坡 | SGP 2
-  - 🇨🇦 加拿大 | CAN
+  - 🇺🇸 美国 | USA 2
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA
-  - 🇨🇦 加拿大 | CAN 2
+  - 🇨🇦 加拿大 | CAN
   - 🇳🇱 荷兰 | NLD
   url: http://www.gstatic.com/generate_204
   interval: 120
