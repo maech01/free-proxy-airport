@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-09T21:50:16.546924+00:00'
+generated-at: '2026-09-09T23:51:13.173865+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
   server: 0deecae9-tl4g00-tls5or-6gn6.hk3.hyhuawei.com
@@ -50,14 +50,6 @@ proxies:
     headers:
       Host: U2FRxj0G13vDI0Wo.v.3dns.vip
   udp: true
-- name: 🇯🇵 日本 | JPN 2
-  server: z-jp1.1card.cc
-  port: 10011
-  type: trojan
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  sni: www.cloudflare.com
-  skip-cert-verify: true
-  udp: true
 - name: 🇯🇵 日本 | JPN 3
   server: 130.12.102.125
   port: 443
@@ -86,20 +78,6 @@ proxies:
     grpc-mode: gun
     grpc-service-name: update
   udp: true
-- name: 🇸🇬 新加坡 | SGP 2
-  server: 163.128.98.190
-  port: 443
-  type: vless
-  uuid: eb76362a-1367-4d4f-957c-2b2cfb2300aa
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: rmJLsckpATk3jDodB0OLaQ1Fp4b87RLw68gB3cE4QCo
-    short-id: 2fdc37f435a78e20
-  servername: www.apple.com
-  client-fingerprint: safari
-  network: tcp
-  udp: true
 - name: 🇸🇬 新加坡 | SGP 4
   server: 163.128.99.45
   port: 443
@@ -113,20 +91,6 @@ proxies:
   servername: www.apple.com
   client-fingerprint: safari
   network: tcp
-  udp: true
-- name: 🇺🇸 美国 | USA 11
-  server: 104.19.52.183
-  port: 2087
-  type: vless
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  tls: true
-  servername: mianfei-73q.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=154.3.33.43
-    headers:
-      Host: mianfei-73q.pages.dev
   udp: true
 - name: 🇺🇸 美国 | USA 9
   server: 172.64.53.194
@@ -142,6 +106,20 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  udp: true
+- name: 🇺🇸 美国 | USA 11
+  server: 104.19.52.183
+  port: 2087
+  type: vless
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  tls: true
+  servername: mianfei-73q.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
   udp: true
 - name: 🇺🇸 美国 | USA 21
   server: 172.64.52.97
@@ -179,6 +157,19 @@ proxies:
     headers:
       Host: mianfei-73q.pages.dev
   udp: true
+- name: 🇺🇸 美国 | USA 3
+  server: 104.19.149.119
+  port: 2087
+  type: vless
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  tls: true
+  servername: mianfei-73q.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
 - name: 🇺🇸 美国 | USA 7
   server: 104.17.156.230
   port: 2053
@@ -193,19 +184,6 @@ proxies:
     headers:
       Host: fq.jp188.dpdns.org
   udp: true
-- name: 🇺🇸 美国 | USA 3
-  server: 104.19.149.119
-  port: 2087
-  type: vless
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  tls: true
-  servername: mianfei-73q.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=154.3.33.43
-    headers:
-      Host: mianfei-73q.pages.dev
 - name: 🇺🇸 美国 | USA 5
   server: 104.16.150.246
   port: 2087
@@ -260,20 +238,6 @@ proxies:
     path: /proxyip=154.3.33.43
     headers:
       Host: mianfei-73q.pages.dev
-- name: 🇺🇸 美国 | USA 14
-  server: 5.34.178.120
-  port: 443
-  type: vless
-  uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: EVhq2BxKuw2Cody1DmF_HPvUYKwzdXbHP47blUv-eRM
-    short-id: 55ab5559e3a6d10a
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
 - name: 🇺🇸US美国丨yoyapai.com
   type: trojan
   server: 216.24.57.7
@@ -313,6 +277,16 @@ proxies:
     headers:
       Host: fq.jp188.dpdns.org
   udp: true
+- name: 🇺🇸 美国 | USA 2
+  server: me17.msjia8844.site
+  port: 7443
+  type: hysteria2
+  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
+  auth: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
+  sni: me17.msjia8844.site
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
 - name: 🇮🇳 印度 | IND
   server: 77.110.104.125
   port: 8443
@@ -418,14 +392,6 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇸🇩 SD_120
-  server: z-jp2.1card.cc
-  port: 10012
-  type: trojan
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  sni: www.cloudflare.com
-  skip-cert-verify: true
-  udp: true
 - name: 🇵🇱PL波兰丨yoyapai.com
   type: vless
   server: 178.95.170.83
@@ -458,6 +424,20 @@ proxies:
       Host: /?--v2rayNplus--v2rayNplus--v2rayNplus--
   skip-cert-verify: false
   udp: true
+- name: 🇩🇪DE德国丨yoyapai.com_11
+  type: vless
+  server: 169.40.42.229
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  skip-cert-verify: false
+  udp: true
 - name: 🇰🇷 韩国 | KOR
   server: kr2-r.link-t7.com
   port: 10047
@@ -482,20 +462,6 @@ proxies:
   sni: www.cloudflare.com
   skip-cert-verify: true
   udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_11
-  type: vless
-  server: 169.40.42.229
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  servername: yahoo.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: ios
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  skip-cert-verify: false
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 2
   server: 178.95.170.98
   port: 2087
@@ -516,19 +482,6 @@ proxies:
   ws-opts:
     path: /4bc027a44532
   udp: true
-- name: 🇷🇺RU俄罗斯
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-  udp: true
 - name: 🇶🇦 QA_118
   server: z-jp2.1card.cc
   port: 10008
@@ -544,26 +497,24 @@ proxy-groups:
   - 🇭🇰 香港 | HKG 2
   - 🇸🇬 新加坡 | SGP 5
   - 🇭🇰HK香港丨yoyapai.com_9
-  - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 3
   - 🇸🇬 新加坡 | SGP
-  - 🇸🇬 新加坡 | SGP 2
   - 🇸🇬 新加坡 | SGP 4
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 21
   - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 19
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 14
   - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 12
+  - 🇺🇸 美国 | USA 2
   - 🇮🇳 印度 | IND
   - 🇰🇷 韩国 | KOR 2
   - 🇰🇷 韩国 | KOR 4
@@ -571,16 +522,14 @@ proxy-groups:
   - 🇰🇷 韩国 | KOR 3
   - 🇹🇼 🇨🇳 台湾 | TWN
   - 🇷🇺 俄罗斯 | RUS
-  - 🇸🇩 SD_120
   - 🇵🇱PL波兰丨yoyapai.com
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇦🇺AU澳大利亚丨yoyapai.com
+  - 🇩🇪DE德国丨yoyapai.com_11
   - 🇰🇷 韩国 | KOR
   - 🇸🇩 SD_119
-  - 🇩🇪DE德国丨yoyapai.com_11
   - 🇳🇱 荷兰 | NLD 2
   - 🇳🇱 荷兰 | NLD 3
-  - 🇷🇺RU俄罗斯
   - 🇶🇦 QA_118
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -594,41 +543,39 @@ proxy-groups:
 - name: JP-POOL
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 3
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 21
   - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 19
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 14
   - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 12
+  - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 9
-  - 🇺🇸 美国 | USA 21
+  - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA 3
+  - 🇸🇬 新加坡 | SGP 5
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
