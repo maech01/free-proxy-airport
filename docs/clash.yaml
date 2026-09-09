@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-09T15:58:33.962863+00:00'
+generated-at: '2026-09-09T19:11:41.661266+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
   server: 0deecae9-tl4g00-tls5or-6gn6.hk3.hyhuawei.com
@@ -165,8 +165,35 @@ proxies:
   auth: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   sni: gta.internet-card.sbs
   skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 4
+  server: 104.17.148.65
+  port: 2087
+  type: vless
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  tls: true
+  servername: mianfei-73q.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
+  udp: true
 - name: 🇺🇸 美国 | USA 3
   server: 104.19.149.119
+  port: 2087
+  type: vless
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  tls: true
+  servername: mianfei-73q.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
+- name: 🇺🇸 美国 | USA 19
+  server: 104.17.50.166
   port: 2087
   type: vless
   uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
@@ -191,20 +218,6 @@ proxies:
     path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
     headers:
       Host: fq.jp188.dpdns.org
-  udp: true
-- name: 🇺🇸 美国 | USA 4
-  server: 104.17.148.65
-  port: 2087
-  type: vless
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  tls: true
-  servername: mianfei-73q.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=154.3.33.43
-    headers:
-      Host: mianfei-73q.pages.dev
   udp: true
 - name: 🇺🇸 美国 | USA 5
   server: 104.16.150.246
@@ -234,19 +247,18 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
-- name: 🇺🇸 美国 | USA 19
-  server: 104.17.50.166
-  port: 2087
-  type: vless
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  tls: true
-  servername: mianfei-73q.pages.dev
-  client-fingerprint: chrome
-  network: ws
+- name: 🇺🇸US美国丨yoyapai.com
+  type: trojan
+  server: 216.24.57.7
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: false
   ws-opts:
-    path: /proxyip=154.3.33.43
-    headers:
-      Host: mianfei-73q.pages.dev
+    path: /assignment
+  udp: true
 - name: 🇺🇸 美国 | USA 15
   server: 104.17.114.147
   port: 2087
@@ -273,18 +285,6 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
   network: tcp
-  udp: true
-- name: 🇺🇸US美国丨yoyapai.com
-  type: trojan
-  server: 216.24.57.7
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-  ws-opts:
-    path: /assignment
   udp: true
 - name: 🇺🇸 美国 | USA 18
   server: 104.17.212.228
@@ -323,32 +323,6 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
-- name: 🇺🇸 美国 | USA 22
-  server: freev2.cloudflare.182682.xyz
-  port: 443
-  type: vless
-  uuid: a90b111a-3a58-49d2-aa7a-edd13d830926
-  tls: true
-  servername: eu-central.xhs152.shop
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /announcement?ed=2048
-    headers:
-      Host: eu-central.xhs152.shop
-  udp: true
-- name: 🇩🇪 德国 | DEU 2
-  server: giftcard.gateway-stream.com
-  port: 52058
-  type: hysteria2
-  password: fr9p9ji70krwnup6
-  auth: fr9p9ji70krwnup6
-  sni: giftcard.gateway-stream.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
 - name: 🇮🇳 印度 | IND
   server: 77.110.104.125
   port: 8443
@@ -462,24 +436,12 @@ proxies:
   sni: www.cloudflare.com
   skip-cert-verify: true
   udp: true
-- name: 🇹🇷 土耳其 | TUR
-  server: 162.159.128.74
-  port: 443
-  type: vless
-  uuid: 0f07fea3-0129-4a28-b86f-99d5d9799e41
-  tls: true
-  alpn:
-  - h3
-  - h2
-  - http/1.1
-  servername: 1.ksaoeoqoeowo929.dpdns.org
-  client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /api
-    host: 1.ksaoeoqoeowo929.dpdns.org
-    mode: auto
-    x-padding-bytes: 100-1000
+- name: 🇨🇳 CN_06
+  server: 121.46.230.233
+  port: 65443
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
   udp: true
 - name: 🇵🇱PL波兰丨yoyapai.com
   type: vless
@@ -491,13 +453,6 @@ proxies:
   ws-opts:
     path: /4bc027a44532
   skip-cert-verify: false
-  udp: true
-- name: 🇨🇳 CN_06
-  server: 121.46.230.233
-  port: 65443
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
   udp: true
 - name: 🇳🇱_NL荷蘭丨yoyapai.com
   type: ss
@@ -568,20 +523,6 @@ proxies:
   ws-opts:
     path: /4bc027a44532
   udp: true
-- name: 🇩🇪 德国 | DEU
-  server: 162.159.152.4
-  port: 443
-  type: vless
-  uuid: 8d42d29a-ed53-4684-a9ff-6b33826149de
-  tls: true
-  servername: aio.eth0.dpdns.org
-  client-fingerprint: randomized
-  network: ws
-  ws-opts:
-    path: /aioproxybot/94.23.144.99-2053
-    headers:
-      Host: aio.eth0.dpdns.org
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 3
   server: 178.95.170.115
   port: 2087
@@ -591,6 +532,19 @@ proxies:
   network: ws
   ws-opts:
     path: /4bc027a44532
+  udp: true
+- name: 🇷🇺RU俄罗斯
+  type: vmess
+  server: renderer-stream-2-62.mirra.now
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
   udp: true
 - name: 🇶🇦 QA_118
   server: z-jp2.1card.cc
@@ -616,20 +570,18 @@ proxy-groups:
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 21
   - 🇺🇸 美国 | USA 20
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 19
+  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 10
-  - 🇺🇸 美国 | USA 19
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 14
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 2
-  - 🇺🇸 美国 | USA 22
-  - 🇩🇪 德国 | DEU 2
   - 🇮🇳 印度 | IND
   - 🇰🇷 韩国 | KOR 2
   - 🇰🇷 韩国 | KOR 4
@@ -638,17 +590,16 @@ proxy-groups:
   - 🇹🇼 🇨🇳 台湾 | TWN
   - 🇷🇺 俄罗斯 | RUS
   - 🇸🇩 SD_120
-  - 🇹🇷 土耳其 | TUR
-  - 🇵🇱PL波兰丨yoyapai.com
   - 🇨🇳 CN_06
+  - 🇵🇱PL波兰丨yoyapai.com
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇦🇺AU澳大利亚丨yoyapai.com
   - 🇰🇷 韩国 | KOR
   - 🇸🇩 SD_119
   - 🇩🇪DE德国丨yoyapai.com_11
   - 🇳🇱 荷兰 | NLD 2
-  - 🇩🇪 德国 | DEU
   - 🇳🇱 荷兰 | NLD 3
+  - 🇷🇺RU俄罗斯
   - 🇶🇦 QA_118
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -673,33 +624,31 @@ proxy-groups:
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 21
   - 🇺🇸 美国 | USA 20
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 19
+  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 10
-  - 🇺🇸 美国 | USA 19
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 14
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 2
-  - 🇺🇸 美国 | USA 22
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 5
-  - 🇸🇬 新加坡 | SGP 5
-  - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 21
-  - 🇺🇸 美国 | USA 9
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 19
-  - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 11
+  - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 21
+  - 🇸🇬 新加坡 | SGP 5
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
