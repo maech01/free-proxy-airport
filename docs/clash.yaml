@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-11T20:30:25.783844+00:00'
+generated-at: '2026-09-11T22:45:25.072179+00:00'
 proxies:
 - name: 🇭🇰HK香港丨yoyapai.com_9
   type: vmess
@@ -131,6 +131,21 @@ proxies:
     headers:
       Host: fq.jp188.dpdns.org
   udp: true
+- name: 🇺🇸 美国 | USA 5
+  server: 104.21.103.254
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  udp: true
 - name: 🇺🇸 美国 | USA
   server: 104.17.96.211
   port: 2096
@@ -144,18 +159,6 @@ proxies:
     path: /proxyip=154.3.33.43
     headers:
       Host: mianfei-73q.pages.dev
-- name: 🇺🇸US美国丨yoyapai.com
-  type: trojan
-  server: 216.24.57.7
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-  ws-opts:
-    path: /assignment
-  udp: true
 - name: 🇺🇸 美国 | USA 14
   server: 144.172.104.26
   port: 443
@@ -168,6 +171,18 @@ proxies:
   servername: www.nvidia.com
   client-fingerprint: firefox
   network: tcp
+  udp: true
+- name: 🇺🇸US美国丨yoyapai.com
+  type: trojan
+  server: 216.24.57.7
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: false
+  ws-opts:
+    path: /assignment
   udp: true
 - name: 🇺🇸 美国 | USA 12
   server: 172.64.53.42
@@ -226,6 +241,17 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇵🇱PL波兰丨yoyapai.com
+  type: vless
+  server: 178.95.170.83
+  port: 2087
+  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
+  network: ws
+  tls: false
+  ws-opts:
+    path: /4bc027a44532
+  skip-cert-verify: false
   udp: true
 - name: 🇦🇺 澳大利亚 | AUS
   server: 103.75.119.11
@@ -287,6 +313,19 @@ proxies:
     headers:
       Host: www.calmlunch.com
   udp: true
+- name: 🇬🇧 英国 | GBR 2
+  server: 82.117.245.125
+  port: 2053
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  udp: true
 - name: 🇩🇪DE德国丨yoyapai.com_11
   type: vless
   server: 169.40.42.229
@@ -301,13 +340,12 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
-- name: 🇳🇱 荷兰 | NLD 3
-  server: 158.101.199.87
-  port: 45819
+- name: 🇬🇧 英国 | GBR 3
+  server: 134.65.57.209
+  port: 61312
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
-  password: 4TVQ2f1okbVq3+Brnm5IMRtM6r6S8HjjQpliw944wEA=
-  udp: true
+  password: wzbgRLlSeDwxHX6xLVVxKk93K5k5N8k+7rncQXn80XA=
 - name: 🇬🇧 英国 | GBR
   server: 158.173.221.214
   port: 11001
@@ -315,12 +353,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: c58d16e593d44f42
   udp: true
-- name: 🇬🇧 英国 | GBR 3
-  server: 134.65.57.209
-  port: 61312
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: wzbgRLlSeDwxHX6xLVVxKk93K5k5N8k+7rncQXn80XA=
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
@@ -335,23 +367,25 @@ proxy-groups:
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 14
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 12
   - 🇩🇪 德国 | DEU 2
   - 🇨🇦 加拿大 | CAN
   - 🇷🇺 俄罗斯 | RUS
   - 🇦🇹 奥地利 | AUT
+  - 🇵🇱PL波兰丨yoyapai.com
   - 🇦🇺 澳大利亚 | AUS
   - 🇦🇺AU澳大利亚丨yoyapai.com
   - 🇮🇹 意大利 | ITA
   - 🇦🇺 澳大利亚 | AUS 2
   - 🇫🇷 法国 | FRA 10
+  - 🇬🇧 英国 | GBR 2
   - 🇩🇪DE德国丨yoyapai.com_11
-  - 🇳🇱 荷兰 | NLD 3
-  - 🇬🇧 英国 | GBR
   - 🇬🇧 英国 | GBR 3
+  - 🇬🇧 英国 | GBR
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
@@ -375,9 +409,10 @@ proxy-groups:
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 14
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 12
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -386,8 +421,8 @@ proxy-groups:
   proxies:
   - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 11
-  - 🇺🇸 美国 | USA
   - 🇸🇬 新加坡 | SGP
+  - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 6
   url: http://www.gstatic.com/generate_204
   interval: 120
