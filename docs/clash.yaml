@@ -7,27 +7,8 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-13T21:35:01.694493+00:00'
+generated-at: '2026-09-13T23:54:27.307002+00:00'
 proxies:
-- name: 🇭🇰 香港 | HKG 2
-  server: hk01.kfc-520.com
-  port: 60001
-  type: hysteria2
-  password: 49f7ff21-a176-30cc-ab60-a5988fd85ce0
-  auth: 49f7ff21-a176-30cc-ab60-a5988fd85ce0
-  sni: hk01.kfc-520.com
-  skip-cert-verify: true
-- name: 🇭🇰 香港 | HKG 3
-  server: 47.238.126.123
-  port: 443
-  type: hysteria2
-  password: c77540fdeabd19986d27960142b66f52
-  auth: c77540fdeabd19986d27960142b66f52
-  sni: 47.238.126.123
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
-  udp: true
 - name: 🇯🇵 日本 | JPN 6
   server: 103.137.215.189
   port: 443
@@ -367,8 +348,6 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 2
-  - 🇭🇰 香港 | HKG 3
   - 🇯🇵 日本 | JPN 6
   - 🇸🇬 新加坡 | SGP 3
   - 🇭🇰 香港 | HKG
@@ -401,8 +380,6 @@ proxy-groups:
 - name: HK-POOL
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 2
-  - 🇭🇰 香港 | HKG 3
   - 🇭🇰 香港 | HKG
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -436,7 +413,7 @@ proxy-groups:
   - 🇺🇸 美国 | USA 25
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 14
-  - 🇺🇸 美国 | USA 21
+  - 🇩🇪DE德国丨yoyapai.com_13
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
