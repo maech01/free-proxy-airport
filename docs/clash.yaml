@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-16T01:32:17.860891+00:00'
+generated-at: '2026-09-16T07:16:37.481649+00:00'
 proxies:
 - name: 🇸🇬 新加坡 | SGP
   server: 162.159.43.187
