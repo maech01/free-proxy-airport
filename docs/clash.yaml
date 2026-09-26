@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-26T19:02:11.307383+00:00'
+generated-at: '2026-09-26T22:05:27.281573+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
   server: 54.46.72.234
@@ -22,22 +22,6 @@ proxies:
     path: /proxyip=ProxyIP.US.CMLiussss.net
     headers:
       Host: spjd.cbc.qzz.io
-  udp: true
-- name: 🇯🇵 日本 | JPN 8
-  server: grimness-backlogs.cdn-content.com
-  port: 443
-  type: vless
-  uuid: 2957d7ed-4697-4dda-8939-0caf7a0e93af
-  tls: true
-  alpn:
-  - http/1.1
-  servername: grimness-backlogs.cdn-content.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: grimness-backlogs.cdn-content.com
   udp: true
 - name: 🇯🇵 日本 | JPN 9
   server: 18.179.37.17
@@ -59,19 +43,18 @@ proxies:
     headers:
       Host: yf.962456.xyz
   udp: true
-- name: 🇸🇬 新加坡 | SGP 7
-  server: cf.090227.xyz
-  port: 2096
+- name: 🇸🇬 新加坡 | SGP 6
+  server: 162.159.43.187
+  port: 8080
   type: vless
-  uuid: a709b602-de36-4637-9f06-c4c922ee8598
-  tls: true
-  servername: g.2n2n.ggff.net
-  client-fingerprint: chrome
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560security=tls
     headers:
-      Host: g.2n2n.ggff.net
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
 - name: 🇯🇵 日本 | JPN 3
   server: cf.877774.xyz
@@ -87,19 +70,6 @@ proxies:
     headers:
       Host: ccc.010304.xyz
   udp: true
-- name: 🇸🇬 新加坡 | SGP 6
-  server: 162.159.43.187
-  port: 8080
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  tls: false
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  udp: true
 - name: 🇸🇬 新加坡 | SGP
   server: 138.2.89.249
   port: 443
@@ -110,20 +80,6 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 309502c4a8df10b46fb976d4a8c43f42
-- name: 🇸🇬 新加坡 | SGP 2
-  server: cf.090227.xyz
-  port: 443
-  type: vless
-  uuid: 3de5a94c-aadc-4e40-ba1a-7d4b6545f8a3
-  tls: true
-  servername: oooyo.bi8bo.cyou
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: oooyo.bi8bo.cyou
-  udp: true
 - name: 🇯🇵 日本 | JPN
   server: 152.69.200.216
   port: 443
@@ -138,6 +94,18 @@ proxies:
     headers:
       Host: jp3.yohototo.top
   udp: true
+- name: 🇺🇸 美国 | USA 20
+  server: 172.64.53.55
+  port: 8080
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  udp: true
 - name: 🇺🇸 美国 | USA 24
   server: 162.159.43.187
   port: 2086
@@ -145,18 +113,6 @@ proxies:
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   tls: false
   servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  udp: true
-- name: 🇺🇸 美国 | USA 20
-  server: 172.64.53.55
-  port: 8080
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  tls: false
   network: ws
   ws-opts:
     path: /?ed=2560security=tls
@@ -199,6 +155,20 @@ proxies:
   skip-cert-verify: false
   ws-opts:
     path: /assignment
+  udp: true
+- name: 🇺🇸 美国 | USA 3
+  server: 107.149.159.190
+  port: 4433
+  type: vless
+  uuid: 443d55c9-9b78-4ad4-ac34-5ada5b98e97e
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: ptrxM_lwiuXte-ynRSfM7AyayGbWrfCzkV1gQ5EgeSw
+    short-id: 0fa5bc397af019a2
+  servername: www.postgresql.org
+  client-fingerprint: chrome
+  network: tcp
   udp: true
 - name: 🇺🇸 美国 | USA 27
   server: 172.64.154.8
@@ -247,22 +217,6 @@ proxies:
   auth: pbgLTkd5276SN1sZ
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 2
-  server: 151.101.56.6
-  port: 443
-  type: vless
-  uuid: 9ccf8612-5e16-4b16-834e-4df5fe3611cd
-  tls: true
-  alpn:
-  - h2
-  servername: ssl.fastly.com
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
-    headers:
-      Host: c12.com
-  udp: true
 - name: 🇳🇱 荷兰 | NLD
   server: 89.105.197.204
   port: 443
@@ -276,20 +230,6 @@ proxies:
   servername: anyfile2file.com
   client-fingerprint: safari
   network: tcp
-  udp: true
-- name: 🇱🇻LV拉脱维亚丨yoyapai.com
-  type: vless
-  server: 193.163.203.170
-  port: 443
-  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
-  servername: yandex.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
-    short-id: b28db60d77c50b4f
-  skip-cert-verify: false
   udp: true
 - name: 🇵🇱PL波兰丨yoyapai.com
   type: vless
@@ -319,6 +259,19 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
+- name: 🇦🇺AU澳大利亚丨yoyapai.com
+  type: vless
+  server: 163.8.195.241
+  port: 2087
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  network: ws
+  tls: false
+  ws-opts:
+    path: /29c8fed7ca22
+    headers:
+      Host: /?--v2rayNplus--v2rayNplus--v2rayNplus--
+  skip-cert-verify: false
+  udp: true
 - name: 🇵🇱 波兰 | POL 2
   server: 31.77.13.19
   port: 2063
@@ -344,19 +297,6 @@ proxies:
   client-fingerprint: qq
   network: tcp
   udp: true
-- name: 🇨🇱 智利 | CHL
-  server: platform107.golnamakcert.top
-  port: 80
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  tls: false
-  servername: platform107.halalkhor.info
-  network: ws
-  ws-opts:
-    path: /platform107
-    headers:
-      Host: platform107.halalkhor.info
-  udp: true
 - name: 🇩🇪DE德国丨yoyapai.com_12
   type: vless
   server: 169.40.42.229
@@ -371,38 +311,48 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
+- name: 🇨🇱 智利 | CHL
+  server: platform107.golnamakcert.top
+  port: 80
+  type: vless
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  tls: false
+  servername: platform107.halalkhor.info
+  network: ws
+  ws-opts:
+    path: /platform107
+    headers:
+      Host: platform107.halalkhor.info
+  udp: true
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
   - 🇭🇰 香港 | HKG 2
-  - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 9
   - 🇯🇵 日本 | JPN 2
-  - 🇸🇬 新加坡 | SGP 7
-  - 🇯🇵 日本 | JPN 3
   - 🇸🇬 新加坡 | SGP 6
+  - 🇯🇵 日本 | JPN 3
   - 🇸🇬 新加坡 | SGP
-  - 🇸🇬 新加坡 | SGP 2
   - 🇯🇵 日本 | JPN
-  - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 20
+  - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 19
   - 🇺🇸US美国丨yoyapai.com
+  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 27
   - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 18
-  - 🇺🇸 美国 | USA 2
   - 🇳🇱 荷兰 | NLD
-  - 🇱🇻LV拉脱维亚丨yoyapai.com
   - 🇵🇱PL波兰丨yoyapai.com
   - 🇵🇱 波兰 | POL
+  - 🇦🇺AU澳大利亚丨yoyapai.com
   - 🇵🇱 波兰 | POL 2
   - 🇩🇪 德国 | DEU
-  - 🇨🇱 智利 | CHL
   - 🇩🇪DE德国丨yoyapai.com_12
+  - 🇨🇱 智利 | CHL
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
@@ -414,7 +364,6 @@ proxy-groups:
 - name: JP-POOL
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 9
   - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 3
@@ -424,16 +373,16 @@ proxy-groups:
 - name: US-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 20
+  - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 19
   - 🇺🇸US美国丨yoyapai.com
+  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 27
   - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 18
-  - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
@@ -441,9 +390,9 @@ proxy-groups:
   proxies:
   - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 24
-  - 🇺🇸 美国 | USA 27
-  - 🇸🇬 新加坡 | SGP 6
   - 🇺🇸 美国 | USA 20
+  - 🇺🇸 美国 | USA 19
+  - 🇺🇸 美国 | USA 27
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
